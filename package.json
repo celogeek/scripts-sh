@@ -1,0 +1,34 @@
+{
+  "name": "statics-sh",
+  "version": "0.0.1",
+  "description": "Serve static sh files",
+  "main": "index.js",
+  "scripts": {
+    "build": "dottojs -s ./src -d ./serve-handler && cp -v ./src/*.js ./serve-handler/"
+  },
+  "repository": "zeit/serve-handler",
+  "author": "Celogeek",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "2.2.0",
+    "commander": "2.15.1",
+    "dot": "1.1.2",
+    "fs-extra": "6.0.1",
+    "micro": "9.3.2",
+    "node-fetch": "2.1.2",
+    "request": "2.87.0",
+    "sleep-promise": "6.0.0",
+    "test-listen": "1.1.0",
+    "nodemon": "2.0.2"
+  },
+  "dependencies": {
+    "bytes": "3.0.0",
+    "content-disposition": "0.5.2",
+    "fast-url-parser": "1.1.3",
+    "mime-types": "2.1.18",
+    "minimatch": "3.0.4",
+    "path-is-inside": "1.0.2",
+    "path-to-regexp": "2.2.1",
+    "range-parser": "1.2.0"
+  }
+}
