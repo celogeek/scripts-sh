@@ -14,6 +14,6 @@ const server = http.createServer((request, response) => {
 	});
 })
 
-server.listen(3000, () => {
-	console.log('Running at http://localhost:3000');
+server.listen(process.env.SH_LISTEN, async() => {
+	console.log('Running at ', process.env.SH_LISTEN);
 });

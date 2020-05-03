@@ -1,5 +1,5 @@
 {
-  "name": "statics-sh",
+  "name": "scripts-sh",
   "version": "0.0.1",
   "description": "Serve static sh files",
   "main": "index.js",
